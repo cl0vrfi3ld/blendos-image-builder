@@ -1,5 +1,5 @@
-# blendOS ISO build scripts
-The blendOS build scripts are used to build the blendOS installation ISO images.
+# clOS ISO build scripts
+The clOS build scripts are used to build the clOS installation ISO images.
 
 ## Building the ISO
 ### 1. Install the build tools
@@ -8,7 +8,7 @@ sudo pacman -S archiso
 ```
 ### 2. Pull the repository
 ```
-git clone https://git.blendos.co/blendOS/image-builder.git
+git clone https://github.com/cl0vrfi3ld/clos-image-builder.git
 ```
 ### 3. Build
 ```
@@ -23,7 +23,7 @@ sudo rm -rf ./out ./workdir
 ```
 
 ## Credits
-This is based on Arkane Linux's ISO build scripts.
+This is based on blendOS's and Arkane Linux's ISO build scripts.
 
 ## Development
 Contributions, in any form, be it code or ideas are always welcome!
